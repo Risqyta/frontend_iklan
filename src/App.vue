@@ -7,7 +7,19 @@
     <router-view/>
   </div>
 </template>
+<script>
+import Sidebar from'./views/layout/Sidebar'
 
+
+export default {
+  name: 'App',
+  components: {
+    Sidebar
+  },
+  
+    }
+  
+</script>
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
